@@ -1,3 +1,43 @@
 body{
     background-color: rgba(5, 102, 37, 0.685);
 }
+
+div{
+    border:1px solid black;
+    /* ,margem interna */
+    padding: 30px;
+    margin: 18px;
+    text-align: center;
+    background: green;
+    border-radius: 10px;
+}
+
+.container{
+    max-width: 900px;
+    margin:auto; /* centraliza a própria div */
+    padding: 0;
+}
+
+/* chama a div com class="sustentavel" */
+.Home{
+    background-color: green;
+    text-align: center;
+}
+.Sobre{
+    background-color: white;
+}
+.ponto de coleta{
+    background-color: white;
+}
+.Notícias{
+    background-color: white;
+}
+.Associadas{
+    background-color: white;
+}
+.Parceiros{
+    background-color: white;
+}
+.contato{
+    background-color: white;
+}
