@@ -8,8 +8,9 @@ div{
     padding: 30px;
     margin: 18px;
     text-align: center;
-    background: green;
-    border-radius: 10px;
+    background: white;
+    border: 10px solid green;
+    
 }
 
 .container{
@@ -20,16 +21,16 @@ div{
 
 /* chama a div com class="sustentavel" */
 .Home{
-    background-color: green;
+    background-color: white;
     text-align: center;
 }
 .Sobre{
     background-color: white;
 }
-.ponto de coleta{
+.pontos de coletas{
     background-color: white;
 }
-.Notícias{
+.Notícias / cardápio {
     background-color: white;
 }
 .Associadas{
@@ -40,4 +41,22 @@ div{
 }
 .contato{
     background-color: white;
+}
+
+/* tabela */
+table{
+    width:100%;
+    border:1px solid black;
+    border-collapse:1px solid black;
+}
+
+td{
+    padding:20px;
+    border-bottom:1px solid black;
+}
+
+th{
+    background-color: lightgreen;
+    color: black;
+    padding:20px;
 }
